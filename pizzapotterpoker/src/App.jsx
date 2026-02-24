@@ -13,8 +13,12 @@ function App() {
         <div className="page">
           <div className="content">
             <h1 className="Welcome-text">
-              Welcome to Hazuki's 3rd "annual" Pizza Potter Poker Party
+              Welcome to Hazuki's 3rd "annual" Pizza Potter Poker Party 🧙‍♂️
             </h1>
+            <p className='info-text'>
+              Come *dressed* in your finest wizard attire prepare for a 
+              poker game with Harry Potter in the background and P-lettered treats
+            </p>
             <h3 className="date-text">March 14th 7:30PM @ the Grove</h3>
 
             <div>

@@ -1,10 +1,90 @@
-.venmo-link{
-    margin-top: 0;
-    text-decoration: underline;
+/* -------------------- RSVP PAGE -------------------- */
+.rsvp-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #c9a84c;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: 'Times New Roman', Times, serif;
 }
-.return-bttn{
-    position: absolute;
-    top:20 px;
-    left: 20px;
 
+.rsvp-name {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #c9a84c;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 1rem;
+}
+
+.rsvp-name::placeholder {
+  color: #aaa;
+}
+
+.attending-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #c9a84c;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.attending-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #c9a84c;
+  cursor: pointer;
+}
+
+.rsvp-submit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #c9a84c;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rsvp-submit-btn:hover {
+  background-color: #a8893d;
+}
+
+/* -------------------- RETURN BUTTON -------------------- */
+.return-bttn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  border: 2px solid #c9a84c;
+  color: #c9a84c;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.return-bttn:hover {
+  background-color: #c9a84c;
+  color: #000;
+}
+
+/* -------------------- VENMO LINK -------------------- */
+.venmo-link {
+
+  display: inline-block;
+  margin-top: 0;
+  text-decoration: underline;
+  color: #c9a84c;
+  padding-bottom: 5px;
 }
