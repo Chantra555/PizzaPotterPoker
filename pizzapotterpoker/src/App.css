@@ -172,4 +172,5 @@ body {
 .RSVP-LINK{
   font-family: 'Times New Roman', Times, serif ;
   font-size: 2rem;
+  text-decoration: underline;
 }
