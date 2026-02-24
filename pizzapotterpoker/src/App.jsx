@@ -4,7 +4,9 @@ import WizardPoker from './images/WizardPoker.png';
 import { Routes, Route, Link } from 'react-router-dom';
 import RSVP from './componets/RSVP';
 
+ 
 function App() {
+  const [submitted,setSubmitted] = useState(false);
   return (
     <Routes>
       <Route path="/" element={
@@ -26,7 +28,9 @@ function App() {
                 className="no-rsvp-name"
                 placeholder="Enter name"
               />
-              <button className="no-rsvp-submit-bttn">submit</button>
+              <button className="no-rsvp-submit-bttn" onClick={()=> setSubmitted(true)}> {submitted? 'Submitted!': 'Submit'}
+
+              </button>
             </div>
 
             <div>
