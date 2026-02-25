@@ -52,7 +52,7 @@ function App() {
               {/* Landing Section */}
               <h1 className="Welcome-text">
                🧙‍♂️Welcome to Hazuki's 3rd Pizza Potter Poker Party 🧙‍♂️
-               <br></br> March 14th 7:30PM @ the Grove 
+               <br></br> March 21st 7:30PM @ the Grove 
               </h1>
               
 
