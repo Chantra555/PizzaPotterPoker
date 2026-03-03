@@ -57,7 +57,7 @@ function App() {
               
 
               <p className="info-text">
-                Come dressed in your finest wizard attire. Prepare for poker,
+                Come dressed in your finest wizard attire. Prepare for poker ($20 buy), Potter Bingo ($1)
                 Harry Potter in the background, & P-lettered treats.  If you'd like to help contribute 4 food: 🥺👉👈
                 
                 <a
