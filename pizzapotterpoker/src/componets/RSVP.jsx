@@ -10,7 +10,7 @@ function RSVP() {
   const [attendees, setAttendees] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/rsvp')
+    fetch('http://pizza-potter-poker-be.onrender.com/api/rsvp')
       .then(res => res.json())
       .then(data => setAttendees(data));
   }, []);
@@ -18,7 +18,7 @@ function RSVP() {
   const handleSubmit = async () => {
     if (name.trim() === '') return;
 
-    await fetch('http://localhost:8080/api/rsvp', {
+    await fetch('http://pizza-potter-poker-be.onrender.com/api/rsvp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, attending })

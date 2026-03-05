@@ -11,7 +11,7 @@ function App() {
 
   // Fetch RSVPs on load
   useEffect(() => {
-    fetch('http://localhost:8080/api/rsvp')
+    fetch('http://pizza-potter-poker-be.onrender.com/api/rsvp')
       .then(res => res.json())
       .then(data => setAttendees(data))
       .catch(err => console.error('Error fetching RSVPs:', err));
@@ -21,7 +21,7 @@ function App() {
   if (!name.trim() || attending === null) return;
 
   try {
-    const response = await fetch('http://localhost:8080/api/rsvp', {
+    const response = await fetch('http://pizza-potter-poker-be.onrender.com/api/rsvp', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, attending, playingPoker })
