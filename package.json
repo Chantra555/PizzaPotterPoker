@@ -1,12 +1,19 @@
 {
+  "name": "pizzapotterpoker",
+  "version": "0.0.0",
+  "private": true,
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.13.1"
   },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "serve": "^14.2.0"
+  },
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "serve -s dist -l $PORT"
+    "dev": "vite",
+    "build": "vite build",
+    "start": "serve -s dist -l $PORT"
+  }
 }
-
-}
-
